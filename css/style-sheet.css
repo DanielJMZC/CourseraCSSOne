@@ -7,12 +7,48 @@ body {
 
 }
 
+img {
+    border-radius: 10%;
+}
+
+header img {
+    width: 10%;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content:  space-evenly;
+    row-gap: 50px;
+    align-items: center;
+}
+
+.grid img {
+    width:100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 20px;
+}
+.flex img {
+    width:20%
+}
+
+
 header {
     background-color: #5d5e5f;
 }
 
 nav {
     background-color: #464646;
+    display: inline-block;
+    width: 80%;
     text-align: left;
 }
 
@@ -25,9 +61,16 @@ footer {
     background-color: #5d5e5f;
 }
 
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
 li {
+    /*
     display: inline-block;
     width: 100%
+    */
 }
 
 p {
